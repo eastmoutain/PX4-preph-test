@@ -44,8 +44,6 @@ static void init_I2C(void)
 	I2C_Cmd(RGB_I2Cx, ENABLE);
     I2C_Init(RGB_I2Cx, &I2C_InitStruct);				// init I2C1
 	
-    
-    //I2C_AcknowledgeConfig(RGB_I2Cx, ENABLE); //allow  acknowledgement.
 }
 
 void test_case_rgb(void)
