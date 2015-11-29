@@ -14,17 +14,5 @@ void NVIC_Config(void)
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 	
-// 	/* Enable and set EXTI Line1 Interrupt t*/
-// 	NVIC_InitStructure.NVIC_IRQChannel = EXTI1_IRQn;
-// 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x02;
-// 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x02;
-// 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-// 	NVIC_Init(&NVIC_InitStructure);
 	
-// 	/* Enable the USARTx Interrupt */
-// 	NVIC_InitStructure.NVIC_IRQChannel = USART3_IRQn;
-// 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x00;
-// 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x00;
-// 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-// 	NVIC_Init(&NVIC_InitStructure);	
 }
