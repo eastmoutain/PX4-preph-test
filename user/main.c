@@ -39,7 +39,6 @@ test_func test_funcs[] = {
     test_case_sd_card
 };
 
-
 void print_test_cases(void)
 {
 	int loop_cnt = 0;
